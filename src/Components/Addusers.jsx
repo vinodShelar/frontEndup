@@ -19,7 +19,7 @@ const Addusers = () => {
 
     const navigate = useNavigate();
     const success = useSelector((state) => state.userreg?.success);
-    console.log(success);
+  
 
     const handleChange = (e) => {
         if (e.target.name === 'profilePic') {
@@ -30,7 +30,6 @@ const Addusers = () => {
     };
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(formData);
         await dispatch(registerUser(formData));
     };
     useEffect(() => {

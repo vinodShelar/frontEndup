@@ -1,4 +1,4 @@
-const baseURL="http://localhost:5000/up/user/";
+const baseURL="https://backendup2.onrender.com/user/";
 
 export const GET_ALL_USERS=baseURL+"getAllusers";
 

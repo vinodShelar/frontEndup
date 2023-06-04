@@ -45,8 +45,8 @@ const UserLists = () => {
     }
 
     const deleteuser = async (id) => {
-        dispatch(deleteUser({ id }));
-        dispatch(getAllUsers());
+        await dispatch(deleteUser({ id }));
+        await dispatch(getAllUsers());
     }
 
     const csvData = tableList && tableList.length > 0 ? tableList.map((item) => ({

@@ -4,7 +4,6 @@ import { toast } from "react-toastify";
 import { DELETE_USER } from "../api";
 
 export const deleteUser = createAsyncThunk("delete/deleteUser", async ({id}) => {
-    console.log(id)
     try {
         const response = await axios.delete(DELETE_USER + `/${id}`);
         toast.success(response.data.message);
