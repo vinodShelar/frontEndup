@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.userListContainer {
+  padding: 2%;
+}
+.addUserbtns {
+  width: max-content;
+  height: max-content;
+}
+.TableHeading {
+  background-color: black !important;
+  color: white !important;
+  font-weight: 400 !important;
+  font-size: medium !important;
+}
+
+.Profilepic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.Actlogo {
+  color: black !important;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+// addusers.scss
+
+.Adduser {
+  width: 99%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-size: xx-large;
+    color: cadetblue;
+    font-weight: 500;
+  }
+  .formAdd {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: 70%;
+    padding: 3%;
+    margin: 2%;
+    @media screen and (max-width: 576px) {
+      width: 90%;
+    }
+  }
+  .adduserbtn {
+    margin-top: 3%;
+    display: flex;
+    float: right;
+  }
+  .cancelBtn {
+    margin-right: 1%;
+  }
+}
+
+//ViewProfile
+
+.Profileimg {
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.infoProfile {
+  padding-left: 20px;
+  span {
+    font-size: medium;
+    color: rgb(14, 224, 154);
+    letter-spacing: 1.5px;
+  }
+  .d-flex {
+    h3 {
+      color: rgb(7, 168, 173);
+      margin-right: 10px;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    h6 {
+      color: gray;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    h5 {
+      color: darkcyan;
+    }
+  }
+  .calloption {
+    span {
+      cursor: pointer;
+      font-size: medium;
+    }
+  }
+  .whatsAppicon {
+    color: green;
+    margin-left: 10px;
+  }
+  .textPhone {
+    span {
+      font-size: medium;
+      color: rgb(14, 224, 154);
+      letter-spacing: 1.5px;
+    }
+  }
+  .emailIcon {
+    color: red;
+  }
+  .buttons {
+    .btns {
+      font-size: small;
+      font-weight: 500;
+    }
+  }
+}
+
+.headingOfEdit{
+    color: rgb(2, 99, 99);
+}
+
+.boxShadow{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding-top: 1%;
+    border-radius: 4px;
+}
+.UsersTable{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
